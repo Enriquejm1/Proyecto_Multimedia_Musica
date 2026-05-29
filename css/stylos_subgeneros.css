@@ -1,0 +1,139 @@
+
+#conteneder{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contenido{
+    width: auto;
+    height: auto;
+    float: left;
+    background: white;
+    margin-top: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#contenido_inicial{
+    width: auto;
+    height: 1400px;
+    float: right;
+    background: black;
+    margin-top: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+aside{
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    float: left;
+}
+
+.generoActual{
+    color: black;
+    background-color: #b8d9e0;
+}
+
+footer{
+    background: black;
+    clear: both;
+}
+
+.sidebar1{
+    position: absolute;
+    left: -290px;
+    width: 250px;
+    height: auto;
+    background: black;
+    transition: all .05s ease;
+}
+
+.sidebar1 h1{
+    font-size: 120%;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: black;
+    user-select: none;
+}
+
+.sidebar1 ul a{
+    display: block;
+    height: auto;
+    width: auto;
+    line-height: 172%;
+    font-size: 100%;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+ul li:hover a{
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.sidebar1 ul a i{
+    margin-right: 16px;
+}
+
+#check1{
+    display: none;
+}
+
+label #btn{
+    position: absolute;
+    cursor: pointer;
+    background: white;
+    color: black;
+    border-radius: 4px;
+}
+
+label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border-radius: 4px;
+}
+
+label #btn{
+    left: 40px;
+    top: 130px;
+    font-size:150%;
+    color: black;
+    padding: 6px auto;
+    transition: all .5s ease;
+}
+
+label #cancel{
+    z-index: 1111;
+    top: auto;
+    left: -195px;
+    top: 20px;
+    font-size: 30px;
+    padding: 4px 9px;
+    transition: all .001s ease;
+}
+
+#check1:checked ~ .sidebar1{
+    left: 0px;
+}
+
+#check1:checked ~ label #btn{
+    left: 200px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check1:checked ~ label #cancel{
+    left: 200px;
+    top: 110px;
+}
