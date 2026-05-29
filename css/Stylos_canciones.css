@@ -1,0 +1,258 @@
+#conteneder{
+    width: auto;
+    height: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#contenido{
+    width: auto;
+    height: auto;/*1480*/
+    float: right;
+    background: white;
+    margin-top: 1px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#contendioPrincipal p{
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    
+    #contendioPrincipal h2{
+        font-size: 180%;
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    #contendioPrincipal li{
+        font-size: 120%;
+        text-align: center;
+    }
+
+    .letra{
+    text-align: justify;
+    float: left;
+    margin-left: 70px;
+    margin-right: 20px;
+    }
+
+    .imagen{
+        margin-left: 110px;
+        margin-right: 50px;
+    }
+
+aside{
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    float: left;
+}
+
+footer{
+    background: black;
+    clear: both;
+}
+
+.sidebar1{
+    position: absolute;
+    left: -290px;
+    width: 250px;
+    height: auto;
+    background: black;
+    transition: all .05s ease;
+}
+
+.sidebar1 h1{
+    font-size: 100%;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+    background: black;
+    user-select: none;
+}
+
+.sidebar1 ul a{
+    display: block;
+    height: auto;
+    width: auto;
+    line-height: 50px;
+    font-size: 90%;
+    color: white;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+ul li:hover a{
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.sidebar1 ul a i{
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+#check1{
+    display: none;
+
+}
+
+label #btn{
+    position: absolute;
+    cursor: pointer;
+    background: white;
+    color: black;
+    border-radius: 4px;
+}
+
+label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border-radius: 4px;
+}
+
+
+label #btn{
+    left: 20px;
+    top: 140px;
+    font-size:170%;
+    color: black;
+    padding: 6px auto;
+    transition: all .5s ease;
+}
+
+label #cancel{
+    z-index: 1111;
+    top: auto;
+    left: -195px;
+    top: 17px;
+    font-size: 100%;
+    padding: 4px 9px;
+    transition: all .001s ease;
+}
+
+#check1:checked ~ .sidebar1{
+    left: 0px;
+}
+
+#check1:checked ~ label #btn{
+    left: 200px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check1:checked ~ label #cancel{
+    left: 210px;
+    top: 130px;
+}
+/*Baner 2*/
+.sidebar2{
+    position: absolute;
+    left: -2000px;
+    width: 250px;
+    height: auto;
+    background: black;
+    transition: all .05s ease;
+}
+
+.sidebar2 h1{
+    font-size: 100%;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    background: black;
+    user-select: none;
+}
+
+.sidebar2 ul a{
+    display: block;
+    height: auto;
+    width: auto;
+    line-height: 55px;
+    font-size: 90%;
+    color: white;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+ul li:hover a{
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.sidebar2 ul a i{
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+#check2{
+    display: none;
+}
+
+label #btn2{
+    position: absolute;
+    cursor: pointer;
+    background: white;
+    color: black;
+    border-radius: 4px;
+}
+
+label #cancel2{
+    position: absolute;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border-radius: 4px;
+}
+
+
+label #btn2{
+    left: 150px;
+    top: 140px;
+    font-size:170%;
+    color: black;
+    padding: 6px auto;
+    transition: all .01s ease;
+}
+
+label #cancel2{
+    z-index:2000;
+    top: auto;
+    left: -195px;
+    top: 17px;
+    font-size: 100%;
+    padding: 4px 9px;
+    transition: all .001s ease;
+}
+
+#check2:checked ~ .sidebar2{
+    left: 0px;
+}
+
+#check2:checked ~ label #btn2{
+    left: 100px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check2:checked ~ label #cancel2 {
+    left: 210px;
+    top: 130px;
+}
+
+#check1:checked ~ label #btn2 {
+    left: -270px;
+    opacity: 0;
+    top: 130px;
+}
