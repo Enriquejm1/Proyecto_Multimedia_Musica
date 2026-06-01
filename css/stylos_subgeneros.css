@@ -134,6 +134,6 @@ label #cancel{
 }
 
 #check1:checked ~ label #cancel{
-    left: 200px;
+    left: 210px;
     top: 110px;
 }
