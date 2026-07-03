@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="Imagenes/Rock.png">
+        <link rel="stylesheet" href="css/stylos_principal.css">
+        <title>Rock</title>
+    </head>
+    <body>
+        <div id="contenedor">
+            <header>
+                <center>
+                    <a><img src="Imagenes/Rock.png" alt="Rock" class="logo1"></a>
+                </center>
+                <input type="checkbox" id="check">
+                <label for="check" class="mostrar-menu">
+                    &#8801
+                </label>
+                <nav class="menu">
+                    <a href="historia.html">Historia </a>
+                    <a href="Evolution.html">Evolución </a>
+                    <a href="Subgeneros.html">Tipos y Subgéneros </a>
+                    <a href="Bandas.html">Bandas </a>
+                    <a href="Artistas.html">Artistas </a>
+                    <a href="Canciones.html">Canciones </a>
+                    <a href="Actualidad.html">Rock Actulidad</a>
+                    <a href="ActualidadMusica.html">Actualidad</a>
+
+                    <label for="check" class="esconder-menu">
+                        &#215
+                    </label>
+                </nav>
+            </header>
+
+            <nav>
+                <h2>Bienvenido</h2>
+            </nav>
+
+            <section id="contenido">
+                <article>
+                    <h1>Frases del Rock</h1>
+                    <center><br>
+                        <video width="1300" height="800" controls>
+                            <source src="Videos/FrasesRock.mp4" type="video/mp4">
+                            <!-- Aquí irán las fuentes de video y el texto alternativo -->
+                        </video></center>
+
+                </article>
+            </section>
+            <aside>
+                <h1>Bandas de Rock</h1>
+                <center>
+                <div class="slider" style="max-width:1900px">
+                  <a href="guns.html">  <img class="mySlides" src="Imagenes/gunsandroses.png"
+                        style="width:100%"></a>
+                   <a href="Nirvana.html"> <img class="mySlides" src="Imagenes/nirvana1.png"
+                        style="width:100%"></a>
+                    <a href="acdc.html"><img class="mySlides" src="Imagenes/acdc.png"
+                        style="width:100%"></a> 
+                     <a href="Vanhalen.html">   <img class="mySlides" src="Imagenes/vanhalen.png"
+                        style="width:100%"></a>
+                     <a href="U2.html">   <img class="mySlides" src="Imagenes/U2.png"
+                        style="width:100%"></a>
+                      <a href="beatles.html">  <img class="mySlides" src="Imagenes/Thebeatles.png"
+                        style="width:100%"></a>
+                       <a href="ledzeppelin.html"> <img class="mySlides" src="Imagenes/led.png"
+                        style="width:100%"></a>
+                </div>
+            </center>
+            </aside>
+            <footer>
+                <div class="copyright">
+                    © Copyright: Todos los derechos reservados
+                </div>
+            </footer>
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 3000); // Change image every 2 seconds
+            }
+            </script>
+    </body>
+</html>
