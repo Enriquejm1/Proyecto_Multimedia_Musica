@@ -1,3 +1,6 @@
 # Proyecto_Multimedia_Musica
-Este proyecto es sobre una pagina web hecha con html, css y javascript sobre la música en especifico del género Rock. Este fue un proyecto de una materia llamada Multimedia de la Universidad Autonoma del estado de México , donde al principio solo se hablaba del rock pero se agregaran mas géneros asi como más banda o artista favorito. Aqui se puedo a prueba lo aprendido lo siguiente elementos: hmtl, css y javascript teniendo elementos multimedia como imagenes, videos y musica segun la evaluación de la materia. 
-Es un proyecto hecho 100% con html, css y javascript sin ningun framework
+Este proyecto consiste en el desarrollo de una página web sobre la música, enfocada específicamente en el género **Rock**, utilizando únicamente **HTML, CSS y JavaScript**.
+Fue realizado como parte de la materia **Desarrollo Multimedia** de la **Universidad Autónoma del Estado de México (UAEMéx)**. La página incluye diferentes apartados, como la historia del rock, sus principales subgéneros, artistas y bandas representativas, así como una sección dedicada a la evolución del género y la música en la actualidad.
+Durante el desarrollo del proyecto se aplicaron los conocimientos adquiridos en HTML, CSS y JavaScript para crear un sitio web interactivo e incorporar diversos elementos multimedia, como imágenes, videos y música, con el objetivo de ofrecer una experiencia más dinámica e informativa para el usuario.
+Este proyecto fue desarrollado **100 % con HTML, CSS y JavaScript**, sin utilizar frameworks ni bibliotecas externas, poniendo en práctica los fundamentos del desarrollo web y el diseño de interfaces.
+
